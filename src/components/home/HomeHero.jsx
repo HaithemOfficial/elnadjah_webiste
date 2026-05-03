@@ -107,7 +107,7 @@ export default function HomeHero() {
             {/* Featured — Italy (current offer) + Lithuania */}
             <div className="grid grid-cols-2 gap-3">
               <NavLink
-                to="/current-offer"
+                to="/destinations/italy"
                 className="group relative flex flex-col gap-2 bg-amber-50 border-2 border-amber-300 hover:border-amber-400 rounded-2xl px-4 py-4 transition-all hover:shadow-lg hover:shadow-amber-100 card-hover overflow-hidden"
               >
                 <span className="text-3xl mt-3">🇮🇹</span>
