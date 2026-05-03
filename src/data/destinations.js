@@ -27,7 +27,7 @@ export const destinations = [
     requirements: [
       { item: "شهادة البكالوريا أو ما يعادلها", mandatory: true },
       { item: "وثائق مترجمة ومُصادَق عليها رسمياً", mandatory: true },
-      { item: "شهادة لغوية (إيطالي B2 أو إنجليزي B2) — وبعض الجامعات تقبل اختبارات أونلاين أو شهادات بديلة", mandatory: true },
+      { item: "شهادة لغوية (إيطالي B2 أو إنجليزي B2) — وبعض الجامعات تقبل شهادات أونلاين أو شهادات مجانية", mandatory: true },
     ],
     costs: {
       tuition: "€0 – €4,000/سنة",
