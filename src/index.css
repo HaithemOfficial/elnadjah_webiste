@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Cairo', system-ui, -apple-system, sans-serif;
+    background-color: #FFFFFF;
+    color: #0F0E1A;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    text-align: right;
+  }
+
+  #root {
+    width: 100%;
+    text-align: right;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+@layer utilities {
+  .gradient-hero {
+    background: linear-gradient(135deg, #312E81 0%, #4F46E5 50%, #6D28D9 100%);
+  }
+
+  .gradient-indigo {
+    background: linear-gradient(135deg, #4338CA 0%, #7C3AED 100%);
+  }
+
+  .gradient-indigo-soft {
+    background: linear-gradient(135deg, #EEF2FF 0%, #F5F3FF 100%);
+  }
+
+  .card-hover {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+
+  .card-hover:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 40px rgba(79, 70, 229, 0.12);
+  }
+
+  .indigo-line {
+    display: block;
+    width: 48px;
+    height: 3px;
+    background: linear-gradient(90deg, #7C3AED, #4F46E5);
+    border-radius: 2px;
+  }
+
+  .animate-fade-up {
+    animation: fadeUp 0.6s ease forwards;
+  }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  .sticky-cta-shadow {
+    box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.10);
+  }
+
+  .blob-indigo {
+    background: radial-gradient(ellipse at center, rgba(99, 102, 241, 0.15) 0%, transparent 70%);
+  }
+
+  .blob-violet {
+    background: radial-gradient(ellipse at center, rgba(139, 92, 246, 0.12) 0%, transparent 70%);
+  }
+
+  /* Flip directional icons for RTL */
+  .rtl-flip {
+    transform: scaleX(-1);
+  }
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#863bff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7C3AED;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Purple gradient background -->
+  <rect width="32" height="32" rx="7" fill="url(#grad)"/>
+  
+  <!-- Geometric "N" inspired design -->
+  <g transform="translate(8, 6)">
+    <!-- Left vertical bar -->
+    <rect x="1" y="1" width="2.5" height="16" fill="white" rx="1"/>
+    <!-- Right vertical bar -->
+    <rect x="12.5" y="1" width="2.5" height="16" fill="white" rx="1"/>
+    <!-- Diagonal connecting -->
+    <path d="M 3.5 5 L 12.5 12" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+</svg>
