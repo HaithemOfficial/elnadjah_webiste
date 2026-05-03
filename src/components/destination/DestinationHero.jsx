@@ -48,21 +48,6 @@ export default function DestinationHero({ destination }) {
               </div>
             </div>
 
-            {/* Programs preview */}
-            <div className="inline-flex flex-col gap-2 bg-white border border-slate-100 rounded-2xl px-4 py-3 mb-5 shadow-sm">
-              <div className="text-slate-400 text-[11px] font-semibold uppercase tracking-wider">برامج أكثر</div>
-              <div className="flex flex-wrap gap-2">
-                {popularFor.slice(0, 5).map((field) => (
-                  <span
-                    key={field}
-                    className="bg-indigo-50 border border-indigo-100 text-indigo-700 text-xs px-2.5 py-1 rounded-lg font-medium"
-                  >
-                    {field}
-                  </span>
-                ))}
-              </div>
-            </div>
-
             {/* Tagline */}
             <p
               className="text-lg font-bold mb-4 leading-snug"
@@ -86,6 +71,9 @@ export default function DestinationHero({ destination }) {
                   {field}
                 </span>
               ))}
+              <span className="bg-indigo-50 border border-indigo-100 text-indigo-700 text-sm px-3 py-1 rounded-lg font-medium">
+                والمزيد
+              </span>
             </div>
 
             {/* CTAs */}
