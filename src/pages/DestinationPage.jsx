@@ -26,7 +26,6 @@ export default function DestinationPage() {
   return (
     <>
       <DestinationHero destination={destination} />
-      <WhyThisCountry destination={destination} />
       <RequirementsCosts destination={destination} />
       <Timeline destination={destination} />
       {/* <LanguageHelp destination={destination} /> */}
@@ -59,6 +58,7 @@ export default function DestinationPage() {
       )}
 
       <DestinationFAQ destination={destination} />
+      <WhyThisCountry destination={destination} />
       <DestinationCTA destination={destination} />
       <StickyMobileCTA label={`قدّم لـ${destination.name}`} />
     </>
