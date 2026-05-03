@@ -62,12 +62,6 @@ export default function HomeHero() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
               </a>
-              <Link
-                to="/destinations/italy"
-                className="inline-flex items-center justify-center gap-2 bg-slate-100 hover:bg-slate-200 text-slate-700 font-semibold text-base px-6 py-4 rounded-xl transition-colors"
-              >
-                اكتشف الوجهات
-              </Link>
             </div>
 
             {/* Micro-trust signals */}

@@ -172,6 +172,17 @@ export default function DestinationGrid() {
           <p className="text-slate-500 text-sm mb-4">لست متأكداً من أي وجهة تناسبك أكثر؟</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
             <a
+              href="https://finder.elnadjah.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-white hover:bg-slate-50 text-indigo-700 font-semibold text-sm px-6 py-3 rounded-xl transition-colors border border-indigo-100"
+            >
+              أداة اختيار الوجهة
+              <svg className="w-4 h-4 rtl-flip" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              </svg>
+            </a>
+            <a
               href={APPLY_FORM_URL}
               target="_blank"
               rel="noopener noreferrer"
